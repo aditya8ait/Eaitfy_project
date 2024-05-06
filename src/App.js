@@ -5,6 +5,7 @@ import Food from './components/Food'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import EndIcon from './components/EndIcon'
 
 
 const App = () => {
@@ -12,9 +13,10 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
-      <Card />
+      {/* <Card />
       <Food />
-      <Category />
+      <Category /> */}
+      <EndIcon />
       <Footer />
     </>
   )
